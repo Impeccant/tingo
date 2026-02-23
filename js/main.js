@@ -5,7 +5,7 @@ import {
   Vector3,
   HemisphericLight,
   Color4
-} from 'https://cdn.jsdelivr.net/npm/@babylonjs/core@7.26.2/+esm';
+} from 'https://cdn.jsdelivr.net/npm/@babylonjs/core@7.26.2/index.js';
 
 import { loadBaseCharacter } from './characterSystem.js';
 import { createMorphController } from './morphController.js';
