@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Character Creator (Babylon.js WebGL2)</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>3D Character Creator</h1>
+      <div class="meta">WebGL2 / Babylon.js / GLB-first</div>
+    </header>
+
+    <main class="layout">
+      <section class="controls">
+        <h2>Preset & Style</h2>
+        <label for="ethnicityPreset">Face Preset</label>
+        <select id="ethnicityPreset"></select>
+
+        <label for="bodyPreset">Body Preset</label>
+        <select id="bodyPreset"></select>
+
+        <label for="agePreset">Age Preset</label>
+        <select id="agePreset"></select>
+
+        <label for="styleMode">Style Mode</label>
+        <select id="styleMode"></select>
+
+        <div class="buttons">
+          <button id="stylizeBtn">Stylize (2D preview)</button>
+          <button id="cartoonifyBtn">Cartoonify (2D preview)</button>
+          <button id="exportGlbBtn">Export GLB</button>
+          <button id="exportObjBtn">Export OBJ Snapshot</button>
+        </div>
+
+        <h3>Performance</h3>
+        <div id="perfHud" class="hud">FPS: -- | Draw Calls: -- | Tris: --</div>
+      </section>
+
+      <section class="viewportWrap">
+        <canvas id="renderCanvas"></canvas>
+      </section>
+
+      <section class="previewPanel">
+        <h2>AI Style Preview (2D)</h2>
+        <p class="small">Feature-flagged. This is an image preview only, not a mesh update.</p>
+        <img id="stylePreview" alt="Style preview" />
+      </section>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

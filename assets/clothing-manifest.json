@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "source": "MakeHuman CC0 placeholders",
+  "notes": "Replace filePath and thumbnail values when actual assets are imported.",
+  "baseCoverage": [
+    {
+      "id": "base_coverage_01",
+      "name": "Base Coverage Layer",
+      "category": "baseCoverage",
+      "slot": "baseCoverage",
+      "styleModes": ["Realistic", "Stylized", "Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/base_coverage/base_coverage_01.glb",
+      "thumbnail": "assets/thumbnails/base_coverage/base_coverage_01.png",
+      "tags": ["mandatory", "coverage", "layer0"]
+    }
+  ],
+  "tops": [
+    {
+      "id": "top_01",
+      "name": "Top Placeholder 01",
+      "category": "top",
+      "slot": "top",
+      "styleModes": ["Realistic", "Stylized"],
+      "filePath": "assets/meshes/clothing/tops/top_01.glb",
+      "thumbnail": "assets/thumbnails/tops/top_01.png",
+      "tags": ["casual", "starter"]
+    },
+    {
+      "id": "top_02",
+      "name": "Top Placeholder 02",
+      "category": "top",
+      "slot": "top",
+      "styleModes": ["Realistic", "Cartoon"],
+      "filePath": "assets/meshes/clothing/tops/top_02.glb",
+      "thumbnail": "assets/thumbnails/tops/top_02.png",
+      "tags": ["jacket", "starter"]
+    },
+    {
+      "id": "top_03",
+      "name": "Top Placeholder 03",
+      "category": "top",
+      "slot": "top",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/clothing/tops/top_03.glb",
+      "thumbnail": "assets/thumbnails/tops/top_03.png",
+      "tags": ["fashion", "starter"]
+    },
+    {
+      "id": "top_04",
+      "name": "Top Placeholder 04",
+      "category": "top",
+      "slot": "top",
+      "styleModes": ["Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/tops/top_04.glb",
+      "thumbnail": "assets/thumbnails/tops/top_04.png",
+      "tags": ["oversized", "starter"]
+    },
+    {
+      "id": "top_05",
+      "name": "Top Placeholder 05",
+      "category": "top",
+      "slot": "top",
+      "styleModes": ["Realistic", "Stylized", "Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/tops/top_05.glb",
+      "thumbnail": "assets/thumbnails/tops/top_05.png",
+      "tags": ["versatile", "starter"]
+    }
+  ],
+  "bottoms": [
+    {
+      "id": "bottom_01",
+      "name": "Bottom Placeholder 01",
+      "category": "bottom",
+      "slot": "bottom",
+      "styleModes": ["Realistic", "Stylized"],
+      "filePath": "assets/meshes/clothing/bottoms/bottom_01.glb",
+      "thumbnail": "assets/thumbnails/bottoms/bottom_01.png",
+      "tags": ["pants", "starter"]
+    },
+    {
+      "id": "bottom_02",
+      "name": "Bottom Placeholder 02",
+      "category": "bottom",
+      "slot": "bottom",
+      "styleModes": ["Realistic", "Cartoon"],
+      "filePath": "assets/meshes/clothing/bottoms/bottom_02.glb",
+      "thumbnail": "assets/thumbnails/bottoms/bottom_02.png",
+      "tags": ["shorts", "starter"]
+    },
+    {
+      "id": "bottom_03",
+      "name": "Bottom Placeholder 03",
+      "category": "bottom",
+      "slot": "bottom",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/clothing/bottoms/bottom_03.glb",
+      "thumbnail": "assets/thumbnails/bottoms/bottom_03.png",
+      "tags": ["skirt", "starter"]
+    },
+    {
+      "id": "bottom_04",
+      "name": "Bottom Placeholder 04",
+      "category": "bottom",
+      "slot": "bottom",
+      "styleModes": ["Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/bottoms/bottom_04.glb",
+      "thumbnail": "assets/thumbnails/bottoms/bottom_04.png",
+      "tags": ["rounded", "starter"]
+    },
+    {
+      "id": "bottom_05",
+      "name": "Bottom Placeholder 05",
+      "category": "bottom",
+      "slot": "bottom",
+      "styleModes": ["Realistic", "Stylized", "Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/bottoms/bottom_05.glb",
+      "thumbnail": "assets/thumbnails/bottoms/bottom_05.png",
+      "tags": ["versatile", "starter"]
+    }
+  ],
+  "footwear": [
+    {
+      "id": "footwear_01",
+      "name": "Footwear Placeholder 01",
+      "category": "footwear",
+      "slot": "footwear",
+      "styleModes": ["Realistic", "Stylized"],
+      "filePath": "assets/meshes/clothing/footwear/footwear_01.glb",
+      "thumbnail": "assets/thumbnails/footwear/footwear_01.png",
+      "tags": ["shoes", "starter"]
+    },
+    {
+      "id": "footwear_02",
+      "name": "Footwear Placeholder 02",
+      "category": "footwear",
+      "slot": "footwear",
+      "styleModes": ["Realistic", "Cartoon"],
+      "filePath": "assets/meshes/clothing/footwear/footwear_02.glb",
+      "thumbnail": "assets/thumbnails/footwear/footwear_02.png",
+      "tags": ["boots", "starter"]
+    },
+    {
+      "id": "footwear_03",
+      "name": "Footwear Placeholder 03",
+      "category": "footwear",
+      "slot": "footwear",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/clothing/footwear/footwear_03.glb",
+      "thumbnail": "assets/thumbnails/footwear/footwear_03.png",
+      "tags": ["sandals", "starter"]
+    },
+    {
+      "id": "footwear_04",
+      "name": "Footwear Placeholder 04",
+      "category": "footwear",
+      "slot": "footwear",
+      "styleModes": ["Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/footwear/footwear_04.glb",
+      "thumbnail": "assets/thumbnails/footwear/footwear_04.png",
+      "tags": ["flat-shaded", "starter"]
+    }
+  ],
+  "hairstyles": [
+    {
+      "id": "hair_01",
+      "name": "Hairstyle Placeholder 01",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Realistic", "Stylized"],
+      "filePath": "assets/meshes/clothing/hair/hair_01.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_01.png",
+      "tags": ["short", "starter"]
+    },
+    {
+      "id": "hair_02",
+      "name": "Hairstyle Placeholder 02",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Realistic", "Cartoon"],
+      "filePath": "assets/meshes/clothing/hair/hair_02.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_02.png",
+      "tags": ["medium", "starter"]
+    },
+    {
+      "id": "hair_03",
+      "name": "Hairstyle Placeholder 03",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/clothing/hair/hair_03.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_03.png",
+      "tags": ["long", "starter"]
+    },
+    {
+      "id": "hair_04",
+      "name": "Hairstyle Placeholder 04",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/hair/hair_04.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_04.png",
+      "tags": ["rounded", "starter"]
+    },
+    {
+      "id": "hair_05",
+      "name": "Hairstyle Placeholder 05",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Realistic", "Stylized", "Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/hair/hair_05.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_05.png",
+      "tags": ["versatile", "starter"]
+    },
+    {
+      "id": "hair_06",
+      "name": "Hairstyle Placeholder 06",
+      "category": "hair",
+      "slot": "hair",
+      "styleModes": ["Realistic", "Stylized", "Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/hair/hair_06.glb",
+      "thumbnail": "assets/thumbnails/hair/hair_06.png",
+      "tags": ["alt", "starter"]
+    }
+  ],
+  "accessories": [
+    {
+      "id": "accessory_01",
+      "name": "Accessory Placeholder 01",
+      "category": "accessory",
+      "slot": "accessory",
+      "styleModes": ["Realistic", "Stylized"],
+      "filePath": "assets/meshes/clothing/accessories/accessory_01.glb",
+      "thumbnail": "assets/thumbnails/accessories/accessory_01.png",
+      "tags": ["hat", "starter"]
+    },
+    {
+      "id": "accessory_02",
+      "name": "Accessory Placeholder 02",
+      "category": "accessory",
+      "slot": "accessory",
+      "styleModes": ["Realistic", "Cartoon"],
+      "filePath": "assets/meshes/clothing/accessories/accessory_02.glb",
+      "thumbnail": "assets/thumbnails/accessories/accessory_02.png",
+      "tags": ["glasses", "starter"]
+    },
+    {
+      "id": "accessory_03",
+      "name": "Accessory Placeholder 03",
+      "category": "accessory",
+      "slot": "accessory",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/clothing/accessories/accessory_03.glb",
+      "thumbnail": "assets/thumbnails/accessories/accessory_03.png",
+      "tags": ["jewelry", "starter"]
+    },
+    {
+      "id": "accessory_04",
+      "name": "Accessory Placeholder 04",
+      "category": "accessory",
+      "slot": "accessory",
+      "styleModes": ["Chibi", "Cartoon"],
+      "filePath": "assets/meshes/clothing/accessories/accessory_04.glb",
+      "thumbnail": "assets/thumbnails/accessories/accessory_04.png",
+      "tags": ["bag", "starter"]
+    }
+  ],
+  "fullOutfits": [
+    {
+      "id": "outfit_01",
+      "name": "Outfit Placeholder 01",
+      "category": "fullOutfit",
+      "slot": "fullOutfit",
+      "styleModes": ["Realistic"],
+      "filePath": "assets/meshes/outfits/outfit_01.glb",
+      "thumbnail": "assets/thumbnails/outfits/outfit_01.png",
+      "tags": ["casual", "bundle", "top_01", "bottom_01", "footwear_01"]
+    },
+    {
+      "id": "outfit_02",
+      "name": "Outfit Placeholder 02",
+      "category": "fullOutfit",
+      "slot": "fullOutfit",
+      "styleModes": ["Stylized", "Chibi"],
+      "filePath": "assets/meshes/outfits/outfit_02.glb",
+      "thumbnail": "assets/thumbnails/outfits/outfit_02.png",
+      "tags": ["fashion", "bundle", "top_03", "bottom_03", "footwear_03"]
+    },
+    {
+      "id": "outfit_03",
+      "name": "Outfit Placeholder 03",
+      "category": "fullOutfit",
+      "slot": "fullOutfit",
+      "styleModes": ["Cartoon", "Chibi"],
+      "filePath": "assets/meshes/outfits/outfit_03.glb",
+      "thumbnail": "assets/thumbnails/outfits/outfit_03.png",
+      "tags": ["bold", "bundle", "top_04", "bottom_04", "footwear_04"]
+    }
+  ]
+}
